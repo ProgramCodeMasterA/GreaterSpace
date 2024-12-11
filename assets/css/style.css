@@ -4,9 +4,19 @@
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
-    margin: 0;
+    margin: 5px;
     box-sizing: border-box;
 }
+
+/*
+Colors:
+Red: #F37979
+White: #3a3a3a
+Blue: #809DF8
+Green: #87ED91
+Violet: #E0A7F7
+Pink: #F8B2F5
+*/
 
 /* General styles */
 body {
@@ -23,25 +33,50 @@ body {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 48px;
 }
 
 
 body {
-    background-color: green;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+}
+
+#h1 {
+    border: 500px;
+}
+
+
+/* Footer */
+#footer {
+    background-color: antiquewhite;
+}
+
+
+#ol {
+    margin-left: 1000px;
 }
 
 
 
-/* Footer */
 
 
 
+#introduction {
+    background-color: #809DF8;
+}
 
 
+#prev-research>a {
+    margin-right: 100px;
+}
 
 
-
-# introduction {
-    background-color: aliceblue;
+#gallery-container>figure {
+    width: 400px;
+    height: 300px;
 }
