@@ -46,18 +46,18 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-#h1 {
+h1 {
     border: 500px;
 }
 
 
 /* Footer */
-#footer {
+footer {
     background-color: antiquewhite;
 }
 
 
-#ol {
+ol {
     margin-left: 1000px;
 }
 
@@ -66,7 +66,7 @@ body {
 
 
 
-#introduction {
+.introduction {
     background-color: #809DF8;
 }
 
@@ -76,7 +76,7 @@ body {
 }
 
 
-#gallery-container>figure {
+.gallery-container>figure {
     width: 400px;
     height: 300px;
 }
